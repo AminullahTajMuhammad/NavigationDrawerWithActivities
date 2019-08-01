@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/navSearch"
+            android:title="Search"
+            android:icon="@drawable/ic_nav_ic_search" />
+        <item
+            android:id="@+id/navMyWallet"
+            android:title="My Wallet"
+            android:icon="@drawable/ic_nav_ic_wallet" />
+        <item
+            android:id="@+id/navMyOrders"
+            android:title="My Orders"
+            android:icon="@drawable/ic_shop_black_24dp" />
+        <item
+            android:id="@+id/navAboutUs"
+            android:title="About Us"
+            android:icon="@drawable/ic_nav_ic_about_us" />
+
+    </group>
+</menu>
